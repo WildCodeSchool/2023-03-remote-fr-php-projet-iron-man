@@ -1,0 +1,32 @@
+@font-face {
+    font-family: 'AVENGEANC_HEROIC_AVENGER';
+    src: url('font/AVENGEANC_HEROIC_AVENGER.eot'); /* IE9 Compat Modes */
+    src: url('font/AVENGEANC_HEROIC_AVENGER.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('font/AVENGEANC_HEROIC_AVENGER.woff') format('woff'), /* Pretty Modern Browsers */
+         url('font/AVENGEANC_HEROIC_AVENGER.ttf')  format('truetype'); /* Safari, Android, iOS */
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+:root {
+    --bg-color: #F0F0F0;
+    --red-color: #B1060C;
+    --yellow-color: #F7B926;
+    --black-color: #000;
+}
+
+body {
+    background-color: var(--bg-color);
+}
+
+h1 {
+    font-family: "AVENGEANC_HEROIC_AVENGER";
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 5rem;
+}
