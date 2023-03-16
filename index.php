@@ -39,7 +39,7 @@
             <!--manual navigation end-->
         </div>
     </section>
-    <section class="main-container center">
+    <section id="main-container" class="main-container center">
         <div class="main-wrapper">
             <a href="#" class="link-box">
                 <div class="main-box"><h2 class="main-title">Mon portfolio</h2></div>

@@ -1,5 +1,3 @@
-/*point break : 768px*/
-
 #subtitle {
     text-align: center;
     line-height: 1rem;
@@ -53,4 +51,11 @@ h2.main-title {
     background-repeat: no-repeat;
     background-position: 50%;
     z-index: 1;
+}
+
+/* Version desktop */
+@media screen and (min-width: 768px) {
+    #main-container {
+        display: none;
+    }
 }
