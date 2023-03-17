@@ -1,16 +1,9 @@
 @font-face {
     font-family: 'AVENGEANC_HEROIC_AVENGER';
-    src: url('font/AVENGEANC_HEROIC_AVENGER.eot'); /* IE9 Compat Modes */
-    src: url('font/AVENGEANC_HEROIC_AVENGER.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('font/AVENGEANC_HEROIC_AVENGER.woff') format('woff'), /* Pretty Modern Browsers */
-         url('font/AVENGEANC_HEROIC_AVENGER.ttf')  format('truetype'); /* Safari, Android, iOS */
-}
-
-html {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Merriweather Sans', sans-serif;
+    src: url('../font/AVENGEANC_HEROIC_AVENGER.eot'); /* IE9 Compat Modes */
+    src: url('../font/AVENGEANC_HEROIC_AVENGER.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../font/AVENGEANC_HEROIC_AVENGER.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../font/AVENGEANC_HEROIC_AVENGER.ttf')  format('truetype'); /* Safari, Android, iOS */
 }
 
 :root {
@@ -20,13 +13,47 @@ html {
     --black-color: #000;
 }
 
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
 body {
     background-color: var(--bg-color);
 }
 
 h1 {
-    font-family: "AVENGEANC_HEROIC_AVENGER";
-    letter-spacing: 2px;
+    font-family: 'AVENGEANC_HEROIC_AVENGER';
+    color: #fff;
     text-align: center;
-    font-size: 5rem;
+    letter-spacing: 5px;
+    font-size: 4rem;
+    text-shadow: 0 0 7px rgba(0,0,0, 0.5);
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	text-shadow: 0px -6px 0 #343a40,  
+	             0px -6px 0 #343a40,
+	             0px  6px 0 #343a40,
+	             0px  6px 0 #343a40,
+	            -6px  0px 0 #343a40,  
+	             6px  0px 0 #343a40,
+	            -6px  0px 0 #343a40,
+	             6px  0px 0 #343a40,
+	            -6px -6px 0 #343a40,  
+	             6px -6px 0 #343a40,
+	            -6px  6px 0 #343a40,
+	             6px  6px 0 #343a40,
+	            -6px  18px 0 #343a40,
+	             0px  18px 0 #343a40,
+	             6px  18px 0 #343a40,
+	             0 19px 1px rgba(0,0,0,.1),
+	             0 0 6px rgba(0,0,0,.1),
+	             0 6px 3px rgba(0,0,0,.3),
+	             0 12px 6px rgba(0,0,0,.2),
+	             0 18px 18px rgba(0,0,0,.25),
+	             0 24px 24px rgba(0,0,0,.2),
+	             0 36px 36px rgba(0,0,0,.15);
 }
