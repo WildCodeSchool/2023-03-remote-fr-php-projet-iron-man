@@ -97,17 +97,17 @@
      
 */
 
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
 
- ul {
-    position: relative;
-    display: block;
-    margin: 0 auto;
-    width: 75%;
-    height: 0.2rem;
-    border-radius: 10px;
-    background: rgba(177, 6, 12, 1);
- } 
+    ul {
+        position: relative;
+        display: block;
+        margin: 0 auto;
+        width: 75%;
+        height: 0.2rem;
+        border-radius: 10px;
+        background: rgba(177, 6, 12, 1);
+    } 
  
  
-}
+} */
