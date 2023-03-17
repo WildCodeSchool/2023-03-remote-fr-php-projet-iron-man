@@ -1,0 +1,203 @@
+
+:root {
+    --bg-color: #F0F0F0;
+    --red-color: #B1060C;
+    --yellow-color: #F7B926;
+    --black-color: #221B22;
+}
+
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+/* =====CONTACT PAGE===== */
+
+body {
+    background-color: var(--bg-color);
+    color: var(--black-color);
+    width: 100%;
+  }
+
+form {
+    padding-bottom: 15px;
+    box-sizing : border-box;
+}
+
+.containerform {
+    display: block;
+    margin: auto;
+    width: 30%;
+    max-width: 50%;
+    min-width: 50%;
+    height: auto;
+    border: solid 2px #221B22;
+    /* box-shadow: 20px 2px 1px 1px #221B22; */
+    border-radius: 5px;
+    box-shadow: 300px 250px 30px -80px #221B22, -200px 80px 30px -10px #B1060C, 60px 0px 30px 60px #F7B926;
+}
+/* .container:hover {
+    transition: .5s;
+    border: #221B22 10px solid;
+} */
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #221B22;
+}
+
+/* ligne avec image */
+hr {
+    overflow: visible; /* For IE */
+    padding: 0;
+    border: none;
+    text-align: center;
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(177,6,12), rgba(0, 0, 0, 0));   
+}
+hr:after {
+    content: url(petiteredyellow.png);
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: #F0F0F0;
+}
+
+/* choix d'assistant */
+fieldset {
+    width: 25%;
+}
+
+input {
+    margin: 0.4rem;
+}
+
+/* Texte dans le texte plus foncé */
+
+input::placeholder, textarea::placeholder {
+    color: #F7B926;
+    opacity: 0.8;
+  }
+
+/* Email */
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    color: #F7B926;
+    background-color: #221B22;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+    height: 2em;
+}
+
+.personalInfo{
+    display: flex ;
+    padding: 2%;
+}
+
+.yellowShadow{
+    box-shadow: 10px -10px #F7B926;
+}
+.yellowShadow:focus {
+    background-color: #F7B926;
+    color: #221B22;
+}
+.yellowShadow:hover {
+    box-shadow: 10px -10px #F7B926;
+    transition: 1s;
+    box-shadow: none;
+}
+
+/* MESSAGE */
+
+textarea{
+    color: #F7B926;
+    background: #221B22;
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 20px -20px #F7B926;
+    margin-left: 2%;
+    padding: 2%;
+    width: 90%;
+    height: 200px;
+    display: flex ;
+}
+textarea:focus {
+    background-color: #F7B926;
+    color: #221B22;
+}
+textarea:hover {
+   box-shadow: 20px -20px #F7B926;
+   transition: 1s;
+   box-shadow: none;
+}
+
+/* Button submit */
+
+input[type="submit"] {
+    margin-top: .5rem;
+    width: 10rem;
+    padding: .5rem;
+    border-radius: 5px;
+    background-color: #F7B926;
+    color: #221B22;
+    border: 2px solid #F7B926;
+    cursor: pointer;
+    box-shadow: 10px -10px #B1060C;
+}
+input[type="submit"]:hover {
+    background-color: #B1060C;
+    color: #F0F0F0;
+    border: 2px solid #B1060C;
+    transition: 1s;
+    box-shadow: none;
+  }
+input[type="submit"]:active {
+    transform: translate(0px,1px);
+    border-bottom: 1px solid;
+    background-color: #7c0408;
+    transform: rotate(2deg);
+    transition: 0.5s;
+    width: 0;
+    height: 0;
+}
+
+/* RESPONSIVE MOBILE RUPTURE À 768px */
+
+@media screen and (max-width: 768px) { 
+    .containerform {
+        display: block;
+        margin: auto;
+        width: 30%;
+        max-width: 50%;
+        min-width: 50%;
+        height: auto;
+        border: solid 2px #221B22;
+        /* box-shadow: 20px 2px 1px 1px #221B22; */
+        /* border-radius: 5px; */
+        box-shadow : 2px 0px 0px 10px #221B22, 
+                   0 0 0 15px #B1060C,
+                   0 2px 5px 15px #F7B926;
+    }
+    /* #contactform {
+
+    }
+    fieldset {
+       
+    } */
+    .personalInfo{
+        display: flex;
+        padding: 2%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}
+
