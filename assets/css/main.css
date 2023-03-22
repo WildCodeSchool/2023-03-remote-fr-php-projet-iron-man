@@ -1,7 +1,11 @@
+#main-css {
+    margin-top: 10rem;
+}
+
 #subtitle {
     text-align: center;
     line-height: 1rem;
-    margin-bottom: 40px;
+    margin: 40px 0;
 }
 
 .center {
