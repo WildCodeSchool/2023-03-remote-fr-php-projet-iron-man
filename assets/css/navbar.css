@@ -41,7 +41,7 @@
     text-decoration: none;
     position: relative;
     background-color: #F7B926;
-    padding: 1rem 1.5rem;
+    padding: 1rem 4.5rem;
     border-radius: 10px;
 
 }
@@ -78,7 +78,7 @@
     display: none;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 768px) {
     .header {
         background-color: white;
         width: calc(100% - 40px);
@@ -182,6 +182,11 @@
         display: block;
     }
 
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+.header__nav__menu__link a {
+    padding: 1rem 1.5rem;    
+    }
 }
 /* main{
     margin-top: 6.5rem;
