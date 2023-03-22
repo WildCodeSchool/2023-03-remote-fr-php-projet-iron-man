@@ -77,7 +77,7 @@
     </main>
 
     <!-- slider JS -->
-    <script type="text/javascript">
+    <script>
         var counter = 1;
         setInterval(function() {
             document.getElementById('radio' + counter).checked = true;
