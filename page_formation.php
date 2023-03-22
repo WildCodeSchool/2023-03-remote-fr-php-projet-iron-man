@@ -8,57 +8,43 @@
     <link href="/assets/css/style.css" rel="stylesheet">
     <title>Page Formation</title>
 </head>
+
 <body>
-    <?php include __DIR__ . '/include/navbar.php' ?>   
+    <?php include __DIR__ . '/include/navbar.php' ?>
     <header class="formation">
         <h1>Formation</h1>
     </header>
     <main>
         <?php include __DIR__ . '/include/formation.php' ?>
-        <div class="timeline">
-            <ul>
-            <?php foreach ($dataFormation as $formation => $value): ?>
-                <div class="bloc_left">
-                    <li>
-                        <span><?php echo $value['date'] ?></span>
-                        <div class="content">
-                            <h3>Phillips Academy à Andover</h3>
-                            <p>Bac Scientifique, option mécanique</p>
+        <div class="before-timeline">
+            <div class="timeline_formation">
+                <div class="bloc_top">
+                    <?php foreach ($dataFormation as $formation => $value) : ?>
+                        <div class="bloc">
+                            <span><?php echo $value['date'] ?></span>
+                            <div class="content">
+                                <h3><?php echo $value['school'] ?></h3>
+                                <p><?php echo $value['description'] ?></p>
+                            </div>
+                        </div> 
+                    <?php endforeach; ?>
+                </div>
+                <div class="line"></div>
+                <div class="bloc_bottom">
+                    <?php foreach ($dataFormation2 as $formation2 => $value2) : ?>
+                        <div class="bloc">
+                            <span><?php echo $value2['date'] ?></span>
+                            <div class="content">
+                                <h3><?php echo $value2['school'] ?></h3>
+                                <p><?php echo $value2['description'] ?></p>
+                            </div>
                         </div>
-                    </li>
-                    
-                </div>    
-                <div class="bloc_right">       
-                    <li>
-                        <span>1984 - 1987</span>
-                        <div class="content">
-                            <h3>Massachusetts Institute of Technology</h3>
-                            <p>Major acceleré de promotion en physiques et ingénierie électrique.</p>
-                        </div>
-                    </li>
-                </div>     
-                <div class="bloc_left">
-                    <li>
-                        <span>2008</span>
-                        <div class="content">
-                            <h3>En cellule en Afghanistan</h3>
-                            <p>Master en création d'un coeur synthétique</p>
-                        </div>
-                    </li>
-                </div>    
-                <div class="bloc_right">
-                    <li>
-                        <span>2008 - 2009</span>
-                        <div class="content">
-                            <h3>Gunshot - Arizona</h3>
-                            <p>Formation aux techniques de tir : laser, décharge plasma,..</p>
-                        </div>
-                    </li>
-                </div>    
-                <?php endforeach; ?>
-            </ul>
+                    <?php endforeach; ?>
+                </div>
+            </div>
         </div>
     </main>
+    <?php include __DIR__ . '/include/footer.php' ?>
 </body>
-<?php include __DIR__ . '/include/footer.php' ?>
+
 </html>
