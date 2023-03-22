@@ -19,6 +19,8 @@
     <section>
       <div class="timeline">
         <div class="outer">
+          <div class="card_top">
+          </div>
           <div class="card">
             <div class="info">
               <h3 class="title">Title 1</h3>
