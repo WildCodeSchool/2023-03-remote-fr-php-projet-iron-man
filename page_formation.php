@@ -9,15 +9,18 @@
     <title>Page Formation</title>
 </head>
 <body>
-    <header>
+    <?php include __DIR__ . '/include/navbar.php' ?>   
+    <header class="formation">
         <h1>Formation</h1>
     </header>
     <main>
+        <?php include __DIR__ . '/include/formation.php' ?>
         <div class="timeline">
             <ul>
+            <?php foreach ($dataFormation as $formation => $value): ?>
                 <div class="bloc_left">
                     <li>
-                        <span>1981-1984</span>
+                        <span><?php echo $value['date'] ?></span>
                         <div class="content">
                             <h3>Phillips Academy à Andover</h3>
                             <p>Bac Scientifique, option mécanique</p>
@@ -52,9 +55,10 @@
                         </div>
                     </li>
                 </div>    
+                <?php endforeach; ?>
             </ul>
         </div>
     </main>
 </body>
-
+<?php include __DIR__ . '/include/footer.php' ?>
 </html>
