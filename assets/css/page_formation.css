@@ -4,10 +4,11 @@
 
 .timeline_formation {
     border-left: 5px solid rgba(177, 6, 12, 1);
-    margin-bottom: 5rem;
+    margin-bottom: 3rem;
     padding: 0.8rem 0.8rem;
+    margin-left: 1.2rem;
+    margin-top: 3rem;
 }
-
 
 .bloc {
     position: relative;
@@ -64,14 +65,15 @@
     transition: 0.3s;
 }
 
-.bloc:hover {
+.bloc-container:hover {
     border-radius: 1.2rem;
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.08);
+    z-index: 1000;
 }
 
-.bloc:hover:before {
+.bloc-container:hover:before {
     background-color:rgba(247, 185, 38, 1);
     box-shadow:0px 0px 10px 2px rgba(247, 185, 38, 1);
 }
@@ -79,9 +81,6 @@
 
  @media screen and (min-width: 768px) {
     
-    /* .bloc {
-        position: absolute;
-    } */
     .formation {
         margin-bottom: 12rem;
     }
@@ -121,12 +120,7 @@
         bottom: -23px;
     }
 
-    /* .bloc:first-child {
-        top: -25px;
-    }
-
-    .bloc:nth-child(3) {
-        top: -35px;
-    } */
-    
+    .main_formation {
+        margin-bottom: 14rem;
+    } 
 }    
