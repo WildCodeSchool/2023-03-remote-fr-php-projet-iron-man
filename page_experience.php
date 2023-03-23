@@ -65,8 +65,10 @@
       </div>
     </section>
 
-    <footer>
-      <?php include __DIR__ . '/include/footer.php' ?>
-    </footer>
+    
+      
+    
   </main>
+  <?php include __DIR__ . '/include/footer.php' ?>
 </body>
+</html>
