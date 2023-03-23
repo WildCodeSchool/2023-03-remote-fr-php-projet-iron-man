@@ -10,13 +10,16 @@
     --bg-color: #F0F0F0;
     --red-color: #B1060C;
     --yellow-color: #F7B926;
-    --black-color: #000;
+    --black-color: #221B22;
 }
 
-html {
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
     font-family: 'Merriweather Sans', sans-serif;
 }
 

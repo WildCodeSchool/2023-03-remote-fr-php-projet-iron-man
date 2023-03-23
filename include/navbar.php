@@ -1,7 +1,7 @@
 <div class="overlay-menu-mobile" onclick="closeMenuMobile()"></div>
 <header class="header">
     <div class="header__logo">
-        <img src="/assets/images/logo_jaune" />
+        <img alt="Iron Man" src="/assets/images/logo_jaune" />
     </div>
     <nav class="header__nav">
         <div class="header__nav__close" onclick="closeMenuMobile()">
@@ -18,7 +18,7 @@
                 <a href="#">Portfolio</a>
             </li>
             <li class="header__nav__menu__link">
-                <a href="#">XP</a>
+                <a href="../page_experience.php">Expériences</a>
             </li>
             <li class="header__nav__menu__link">
                 <a href="/page_formation.html">Formation</a>
@@ -26,7 +26,6 @@
             <li class="header__nav__menu__link">
                 <a href="#">Contact</a>
             </li>
-
         </ul>
         </div>
     </nav>
