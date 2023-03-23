@@ -10,7 +10,7 @@
 </head>
 
 <body>
-    <?php include __DIR__ . '/include/navbar.php' ?>
+    <?php include __DIR__ . '/include/navbar.php' ?>  
     <header class="formation">
         <h1>Formation</h1>
     </header>
@@ -44,7 +44,6 @@
             </div>
         </div>
     </main>
-    <?php include __DIR__ . '/include/footer.php' ?>
+    <?php include __DIR__ . '/include/footer.php' ?>  
 </body>
-
 </html>

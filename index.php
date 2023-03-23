@@ -12,7 +12,7 @@
 <body>
     <?php include __DIR__ . '/include/navbar.php' ?>
     <main>
-        <h1>IRON MAN</h1>
+        <h1 id="main-css">IRON MAN</h1>
         <p id="subtitle">
             Iron Man est un film américano-canadien réalisé par Jon Favreau, sorti en 2008.<br><br>
             Il raconte les origines et les débuts du personnage éponyme issu du comics publié.
@@ -77,7 +77,7 @@
     </main>
 
     <!-- slider JS -->
-    <script type="text/javascript">
+    <script>
         var counter = 1;
         setInterval(function() {
             document.getElementById('radio' + counter).checked = true;
@@ -88,6 +88,6 @@
         }, 5000);
     </script>
     <!-- end slider JS -->
+    <?php include __DIR__ . '/include/footer.php' ?>
 </body>
-
 </html>
