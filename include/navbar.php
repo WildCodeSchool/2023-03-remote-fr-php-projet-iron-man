@@ -11,7 +11,7 @@
         </div>
         <ul class="header__nav__menu">
             <li class="header__nav__menu__link__image">
-                <a href="../index.php">
+                <a href="/index.php">
                     <img id="logo_rouge" onMouseOver="over();" onMouseOut="out();" src="/assets/images/logo_rouge" alt="ironman" /></a>
             </li>
             <li class="header__nav__menu__link">
@@ -21,7 +21,7 @@
                 <a href="../page_experience.php">Expériences</a>
             </li>
             <li class="header__nav__menu__link">
-                <a href="../page_formation.php">Formation</a>
+                <a href="/page_formation.html">Formation</a>
             </li>
             <li class="header__nav__menu__link">
                 <a href="#">Contact</a>
