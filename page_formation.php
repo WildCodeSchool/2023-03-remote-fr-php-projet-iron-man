@@ -18,11 +18,13 @@
         <?php include __DIR__ . '/include/formation.php' ?>
         <div class="timeline_formation">
             <?php foreach ($dataFormation as $formation => $value) : ?>
-                <div class="bloc">
-                    <span><?php echo $value['date'] ?></span>
-                    <div class="content">
-                        <h3><?php echo $value['school'] ?></h3>
-                        <p><?php echo $value['description'] ?></p>
+                <div class="bloc-container">
+                    <div class="bloc">
+                        <span><?php echo $value['date'] ?></span>
+                        <div class="content">
+                            <h3><?php echo $value['school'] ?></h3>
+                            <p><?php echo $value['description'] ?></p>
+                        </div>
                     </div>
                 </div>
             <?php endforeach; ?>
