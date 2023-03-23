@@ -1,0 +1,251 @@
+
+/* =====CONTACT PAGE===== */
+
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    padding-bottom: 15px;
+    box-sizing : border-box;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: 2%;
+}
+
+.containerform {
+    margin-top: 15%;
+    margin-bottom: 20%;
+    margin-inline: auto;
+    /* display: block; */
+    /* width: 30%; */
+    min-height: 60%;
+    max-width: 50%;
+    min-width: 60%;
+    /* border: solid 2px var(--black-color); */
+    /* box-shadow: 20px 2px 1px 1px #221B22; */
+    border-radius: 5px;
+    box-shadow: 5px 5px 15px -5px var(--black-color), 300px 250px 30px -80px var(--black-color), -200px 80px 30px -10px var(--red-color), 60px -60px 30px 60px var(--yellow-color);
+}
+
+/* RESPONSIVE MOBILE RUPTURE À 768px */
+
+/* @media screen and (min-width: 768px) { 
+    .containerform {
+        margin-top: 20%;
+        margin-bottom: 20%;
+        margin-inline: auto;
+        min-width: 100%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 5px 5px 15px -5px var(--black-color), 300px 250px 30px -80px var(--black-color), -200px 80px 30px -10px var(--red-color), 60px 0px 30px 60px var(--yellow-color);
+    }
+  
+    .personalInfo{
+        display: flex;
+        padding: 2%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+} */
+
+@media screen and (max-width: 768px) { 
+    .containerform {
+        margin-top: 30%;
+        margin-bottom: 20%;
+        margin-inline: auto;
+        min-width: 100%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 5px 5px 15px -5px var(--black-color), 300px 250px 30px -80px var(--black-color), -200px 80px 30px -10px var(--red-color), 60px 0px 30px 60px var(--yellow-color);
+    }
+  
+    .personalInfo{
+        display: flex;
+        padding: 2%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}
+
+
+/* ligne avec image */
+
+.redline {
+    height: 2px;
+    color: var(--bg-color) ;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(177,6,12), rgba(0, 0, 0, 0)); 
+    display: flex;
+    justify-content: center;
+    transform: translateY(-100%);
+    left: 0;
+    animation: ligneAnim 3s forwards;
+}
+@keyframes ligneAnim{
+    from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+}
+
+.redline:hover {
+    height: 5px;
+    background-color: var(--yellow-color);
+    color: var(--red-color);
+}
+
+/* input {
+    margin: 0.4rem;
+} */
+
+.personalInfo{
+    display: flex ;
+    padding: 2%;
+    gap: 0.5rem;
+}
+
+
+/* input */
+
+input[type="text"], input[type="email"], input[type="tel"] {
+    color: var(--yellow-color);
+    background-color: var(--black-color);
+    border-radius: 5px;
+    cursor: pointer;
+    width: 30%;
+    height: 2em;
+    padding: 1%;
+    margin: 1%;
+}
+
+.yellowShadow{
+    box-shadow: 5px 5px 15px -5px var(--black-color), 10px -10px var(--yellow-color);
+}
+.yellowShadow:focus {
+    background-color: var(--yellow-color);
+    color: var(--black-color);
+}
+.yellowShadow:hover {
+    box-shadow: 10px -10px var(--yellow-color);
+    transition: 1s;
+    box-shadow: none;
+}
+
+/* Texte dans le texte plus foncé */
+
+input::placeholder, textarea::placeholder {
+    color: var(--yellow-color);
+    opacity: 0.8;
+  }
+
+input:focus::-webkit-input-placeholder {
+    color: var(--black-color);
+}
+/* MESSAGE */
+
+textarea{
+    color: var(--yellow-color);
+    background: var(--black-color);
+    border-radius: 5px;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px -5px var(--black-color), 15px -15px var(--yellow-color);
+    padding: 2%;
+    width: 90%;
+    height: 200px;
+    display: flex ;
+}
+textarea:focus {
+    background-color: var(--yellow-color);
+    color: var(--black-color);
+}
+textarea:hover {
+   box-shadow: 20px -20px var(--yellow-color);
+   transition: 1s;
+   box-shadow: none;
+}
+
+textarea:focus::-webkit-input-placeholder {
+    color: var(--black-color);
+}
+
+/* Button submit */
+
+input[type="submit"] {
+    margin-top: .5rem;
+    width: 10rem;
+    padding: .5rem;
+    border-radius: 5px;
+    background-color: var(--yellow-color);
+    color: var(--black-color);
+    border: 2px solid var(--yellow-color);
+    cursor: pointer;
+    box-shadow: 5px 5px 15px -5px var(--black-color), 10px -10px var(--red-color);
+}
+input[type="submit"]:hover {
+    background-color: var(--red-color);
+    color: var(--bg-color);
+    border: 2px solid var(--red-color);
+    transition: 1s;
+    box-shadow: none;
+  }
+input[type="submit"]:active {
+    transform: translate(0px,1px);
+    border-bottom: 1px solid;
+    background-color: #7c0408;
+    transform: rotate(2deg);
+    transition: 0.5s;
+    width: 0;
+    height: 0;
+}
+
+/* .yellowline {
+    height: 2px;
+    color: var(--bg-color) ;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgb(177,6,12), rgba(0, 0, 0, 0)); 
+    display: flex;
+    justify-content: center;
+    transform: translateY(-100%);
+    left: 0;
+    animation: ligneAnim 3s forwards;
+}
+@keyframes ligneAnim{
+    from {
+        width: 0;
+      }
+      to {
+        width: 100%;
+      }
+}
+.yellowline:hover {
+    height: 5px;
+    background-color: var(--yellow-color);
+    color: var(--red-color);
+} */
+
+
+
+/* DARK MODE ULTRON À ACTIVER */
+
+
+/* @media (prefers-color-scheme: dark) {
+    body {
+    background-color: #1c1c1e;
+    color: #fefefe;
+    }
+    a {
+    color: #5fa9ee;
+    }
+    img {
+    filter: grayscale(20%);
+    }
+    } */
+
