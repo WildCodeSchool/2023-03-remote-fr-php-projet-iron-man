@@ -14,7 +14,7 @@
     <header class="formation">
         <h1>Formation</h1>
     </header>
-    <main>
+    <main class="main_formation">
         <?php include __DIR__ . '/include/formation.php' ?>
         <div class="timeline_formation">
             <?php foreach ($dataFormation as $formation => $value) : ?>
