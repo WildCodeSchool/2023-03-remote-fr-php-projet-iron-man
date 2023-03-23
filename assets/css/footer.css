@@ -1,5 +1,6 @@
 footer{
-    position: fixed;
+    /*position: fixed;*/
+    margin-top: 3rem;
     bottom: 0;
     width: 100%;
     background-color: #221B22;
@@ -7,12 +8,12 @@ footer{
     display: flex;
     align-items: center;
     justify-content:flex-end;
+    line-height: 3em;
   }
 
   .textfooter{
     margin-right: auto;
   }
-
 
   .box {
     width: 30px;
@@ -48,4 +49,37 @@ footer{
 .box img{
     width: 20px;
     height: 20px;
+}
+
+#footer-social-network p span {
+  margin: 0 30px;
+}
+
+.footer-social {
+  margin-top: 10px;
+  transition: transform .9s;
+  width: 40px;
+}
+
+.footer-social:hover {
+  transform: rotate(-360deg);
+}
+
+.facebook {
+  background-image: url('../images/facebook.svg');
+  background-repeat: no-repeat;
+  width: 40px;
+}
+
+.facebook-hover {
+  background-image: url('../images/facebook-hover.svg');
+  background-repeat: no-repeat;
+}
+
+
+/* Version desktop */
+@media screen and (max-width: 768px) {
+  #footer-social-network p span {
+    margin: 0 10px;
+  }
 }
