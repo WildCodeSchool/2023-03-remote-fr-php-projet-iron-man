@@ -6,8 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/formBC.css">
-    <!--<link rel="stylesheet" href="/assets/css/styleUltron.css"> -->
+    <!--<link rel="stylesheet" href="/assets/css/formBC.css">-->
+    <link rel="stylesheet" href="/assets/css/styleUltron.css">
     <title>Contact</title>
 </head>
 
@@ -17,11 +17,10 @@
         <h1>Contact</h1>
 
         <div class="Ultron">
-            <input type="checkbox" value="1" onclick="document.location.href='formUltron.php'" id="Ultron" name="Ultron" />
+            <input type="checkbox" value="1" onclick="document.location.href='formBC.php'" id="Ultron" name="Ultron" />
             <label for="Ultron"></label>
         </div>
-        <!--<p class="assistantIA">Ultron</p>-->
-
+        <!--<p class="assistantIA">Jarvis</p>-->
 
         <span class="redline"></span>
         <!--<p>Entrez vos coordonnées ci-dessous !</p>-->
@@ -43,11 +42,10 @@
             </div>
 
             <label for="message"></label><br>
-            <textarea id="message" name="message" placeholder="Bonjour je suis JARVIS ! Tapez votre message et je le transmettrai à Mr STARK..." required></textarea>
+            <textarea id="message" name="message" placeholder="Tapez votre message si vous voulez mais ne comptez pas sur moi pour le transmettre à cet Iron Man..." required></textarea>
             <br>
 
             <input type="submit" value="Envoyer" id="submit">
-            <!--<span class="yellowline"><br></span><br>-->
 
         </form>
     </div>
