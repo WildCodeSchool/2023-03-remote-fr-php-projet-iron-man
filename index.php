@@ -86,6 +86,6 @@
         }, 5000);
     </script>
     <!-- end slider JS -->
-    <?php include __DIR__ . '/include/footer.php' ?><br><br><br>
+    <?php include __DIR__ . '/include/footer.php' ?>
 </body>
 </html>
