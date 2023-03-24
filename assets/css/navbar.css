@@ -7,7 +7,7 @@
     left: 0;
     display: flex;
     align-items: center;
-    z-index: 1;
+    z-index: 1000;
 }
 /*modif images*/
 .header__logo img {
@@ -30,7 +30,7 @@
 }
 
 .header__nav__menu__link {
-    margin-right: 1rem;
+    margin-right: 2rem;
 }
 
 
@@ -184,12 +184,11 @@
     }
 
 }
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-.header__nav__menu__link a {
-    padding: 1rem 1.5rem;    
-    }
+ @media screen and (min-width: 768px) and (max-width:1024px){
+    .header__nav__menu__link a {
+        padding: 1rem 1.5rem;
+
+ }
 }
-/* main{
-    margin-top: 6.5rem;
-} 
- */
+
+

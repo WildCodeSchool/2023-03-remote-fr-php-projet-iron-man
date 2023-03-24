@@ -15,7 +15,7 @@
                     <img id="logo_rouge" onMouseOver="over();" onMouseOut="out();" src="/assets/images/logo_rouge" alt="ironman" /></a>
             </li>
             <li class="header__nav__menu__link">
-                <a href="#">Portfolio</a>
+                <a href="/portfolio.php">Portfolio</a>
             </li>
             <li class="header__nav__menu__link">
                 <a href="/page_experience.php">Expériences</a>

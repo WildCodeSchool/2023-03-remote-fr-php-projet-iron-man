@@ -13,9 +13,7 @@
     <?php include __DIR__ . '/include/navbar.php' ?>
     <main>
         <h1 id="main-css">IRON MAN</h1>
-        <p id="subtitle">
-            Iron Man est un film américano-canadien réalisé par Jon Favreau, sorti en 2008.<br><br>
-            Il raconte les origines et les débuts du personnage éponyme issu du comics publié.
+        <p id="subtitle">En recherche d'un réalisateur pour la tournée du 4ème volet du film Iron Man
         </p>
         <section class="center">
             <div class="slider">
@@ -88,6 +86,10 @@
         }, 5000);
     </script>
     <!-- end slider JS -->
-    <?php include __DIR__ . '/include/footer.php' ?>
+    <?php include __DIR__ . '/include/footer.php' ?><br><br><br>
+    <?php
+$tab = ['ok', 'lol'];
+var_dump($tab);
+?>
 </body>
 </html>

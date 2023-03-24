@@ -6,7 +6,6 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Titre de la page</title>
   <link rel="stylesheet" href="/assets/css/style.css">
-
   <script src="navbar.js"></script>
 </head>
 
@@ -25,18 +24,21 @@
         </div>
             <ul class="header__nav__menu">
               <li class="header__nav__menu__link__image">
+
+                <a href="../index.php" ><img id="logo_rouge" onMouseOver="over();" onMouseOut="out();" src="/assets/images/logo_rouge" alt="ironman" /></a> 
+                <a href="#" ><img id="logo_rouge" onMouseOver="over();" onMouseOut="out();" src="logo_rouge" alt="ironman" /></a> 
                 <a href="#" ><img id="logo_rouge" onMouseOver="over();" onMouseOut="out();" src="/assets/images/logo_rouge" alt="ironman" /></a> 
                 <li class="header__nav__menu__link">
-                  <a href="#">Portfolio</a>
+                  <a href="/navbar_footer/portfolio.php">Portfolio</a>
                 </li>
                 <li class="header__nav__menu__link">
                     <a href="#">Expériences</a>
                 </li>
                 <li class="header__nav__menu__link">
-                    <a href="#">Formation</a>
+                    <a href="/page_formation.html">Formation</a>
                 </li>
                 <li class="header__nav__menu__link">
-                    <a href="#">Contact</a>
+                    <a href="/formBC.html">Contact</a>
                 </li>
 
             </ul>
@@ -50,7 +52,7 @@
         </div>
     </header> 
     <main>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum modi praesentium, similique saepe deleniti consequatur mollitia impedit suscipit tenetur inventore veniam consectetur excepturi quas voluptatem dicta commodi, doloremque eligendi nemo?</p>
+    <p></p>
    
 
     </main>
@@ -64,10 +66,10 @@
           document.querySelector('.overlay-menu-mobile').classList.remove('open');}
 
       function over() {
-        document.querySelector("#logo_rouge").src = 'logorouge_yeux_jaunes';
+        document.querySelector("#logo_rouge").src = '/assets/images/logo_rouge_yeux_jaunes';
       }
       function out() {
-        document.querySelector("#logo_rouge").src = 'logo_rouge';
+        document.querySelector("#logo_rouge").src = '/assets/images/logo_rouge';
       }
       
       </script>
