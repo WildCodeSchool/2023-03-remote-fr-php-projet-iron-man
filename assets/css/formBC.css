@@ -7,7 +7,7 @@ h1 {
     justify-content: center;
 
     font-family: 'AVENGEANC_HEROIC_AVENGER';
-    color: #fff;
+    color: var(--bg-color);
     text-align: center;
     letter-spacing: 5px;
     font-size: 4rem;
@@ -159,6 +159,26 @@ form {
     
 }
 
+/* RESPONSIVE MOBILE */
+@media screen and (max-width: 400px) { 
+    .containerform {
+        margin-top: 40%;
+        margin-bottom: 20%;
+        margin-inline: auto;
+        min-width: 100%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 5px 5px 15px -5px var(--black-color), 300px 250px 30px -80px var(--black-color), -200px 80px 30px -10px var(--red-color), 60px 0px 30px 60px var(--yellow-color);
+    }
+  
+    .personalInfo{
+        display: flex;
+        margin: 0.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}
 
 /* ligne avec image */
 
