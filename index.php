@@ -87,9 +87,5 @@
     </script>
     <!-- end slider JS -->
     <?php include __DIR__ . '/include/footer.php' ?><br><br><br>
-    <?php
-$tab = ['ok', 'lol'];
-var_dump($tab);
-?>
 </body>
 </html>
