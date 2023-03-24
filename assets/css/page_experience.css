@@ -134,7 +134,7 @@
 }
 
 @media (min-width: 651px) {
-    .outer_AG2 {
+    .outer {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;

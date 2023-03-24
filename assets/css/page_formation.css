@@ -123,4 +123,12 @@
     .main_formation {
         margin-bottom: 14rem;
     } 
-}    
+
+    .bloc-container:hover {
+    border-radius: 1.2rem;
+    -ms-transform: initial;
+    -webkit-transform: initial;;
+    transform: initial;
+    z-index: 1000;
+}
+}
