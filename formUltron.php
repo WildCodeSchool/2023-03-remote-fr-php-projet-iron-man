@@ -42,7 +42,7 @@
             </div>
 
             <label for="message"></label><br>
-            <textarea id="message" name="message" placeholder="Tapez votre message si vous voulez mais ne comptez pas sur moi pour le transmettre à cet Iron Man..." required></textarea>
+            <textarea id="message" name="message" placeholder="Je suis Ultron ! Tremblez devant moi ! Tapez votre message si vous voulez mais ne comptez pas sur moi pour le transmettre à cet Iron Man..." required></textarea>
             <br>
 
             <input type="submit" value="Envoyer" id="submit">

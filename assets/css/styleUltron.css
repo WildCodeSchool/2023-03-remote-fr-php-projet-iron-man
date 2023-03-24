@@ -161,7 +161,7 @@ form {
     box-shadow: 5px 5px 15px -5px var(--red-color), 300px 250px 30px -80px var(--black-color), -200px 80px 30px -10px var(--red-color), 60px -60px 30px 60px var(--red-color);
 }
 
-/* RESPONSIVE MOBILE RUPTURE À 768px */
+/* RESPONSIVE TABLETTE RUPTURE À 768px */
 
 @media screen and (max-width: 768px) { 
     .containerform {
@@ -183,6 +183,26 @@ form {
     
 }
 
+/* RESPONSIVE MOBILE */
+@media screen and (max-width: 400px) { 
+    .containerform {
+        margin-top: 40%;
+        margin-bottom: 20%;
+        margin-inline: auto;
+        min-width: 100%;
+        height: auto;
+        border-radius: 5px;
+        box-shadow: 5px 5px 15px -5px var(--black-color), 300px 250px 30px -80px var(--black-color), -200px 80px 30px -10px var(--red-color), 60px 0px 30px 60px var(--red-color);
+    }
+  
+    .personalInfo{
+        display: flex;
+        margin: 0.5rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    
+}
 
 /* ligne avec image */
 
