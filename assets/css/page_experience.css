@@ -139,7 +139,6 @@
 @media (min-width: 651px) {
 
     :root {
-        box-sizing: border-box;
         margin: 0;
         padding: 0;
     }
