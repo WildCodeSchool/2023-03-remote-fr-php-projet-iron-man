@@ -50,22 +50,22 @@
         </section>
         <section id="main-container" class="main-container center">
             <div class="main-wrapper">
-                <a href="#" class="link-box">
+                <a href="/portfolio.php" class="link-box">
                     <div class="main-box">
                         <h2 class="main-title">Mon portfolio</h2>
                     </div>
                 </a>
-                <a href="#" class="link-box">
+                <a href="/page_experience.php" class="link-box">
                     <div class="main-box">
                         <h2 class="main-title">Mes expériences</h2>
                     </div>
                 </a>
-                <a href="#" class="link-box">
+                <a href="/page_formation.php" class="link-box">
                     <div class="main-box">
                         <h2 class="main-title">Mes formations</h2>
                     </div>
                 </a>
-                <a href="#" class="link-box">
+                <a href="/formBC.php" class="link-box">
                     <div class="main-box">
                         <h2 class="main-title">Contactez-moi</h2>
                     </div>
