@@ -16,6 +16,7 @@
     width: 100%;
     bottom: 0;
     text-align: center;
+    top: 845px;
 }
 .menu label {
     cursor: pointer;
@@ -40,7 +41,7 @@
     transition: all  0.75s ease-in-out;
 }
 .slide-img {
-    height: 90vh;
+    height: 85vh;
     /* position: absolute;
     top: 0;
     left: 100%;
