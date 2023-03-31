@@ -22,32 +22,32 @@
 
         <input class="slide-input" id="slide-dot-1" type="radio" name="slides" checked>
         <div class="slide-content">
-            <img class="slide-img" src="http://lestoilesheroiques.fr/wp-content/uploads/2015/04/warmachine-markvii.jpg">
+            <img class="slide-img" src="/assets/images/warmachine-markvii.jpg">
         <p class="slide-text">War Machine Mark VII/Mark 7</p>
         </div>
         
 
         <input class="slide-input" id="slide-dot-2" type="radio" name="slides">
         <div class="slide-content">
-            <img class="slide-img" src="http://lestoilesheroiques.fr/wp-content/uploads/2015/04/warmachine-markvi.jpg">
+            <img class="slide-img" src="/assets/images/warmachine-markvi.jpg">
         <p class="slide-text">War Machine Mark VI/Mark 6</p>
         </div>
 
         <input class="slide-input" id="slide-dot-3" type="radio" name="slides">
         <div class="slide-content">
-            <img class="slide-img" src="http://lestoilesheroiques.fr/wp-content/uploads/2015/04/ironpatriot-2.jpg">
+            <img class="slide-img" src="/assets/images/ironpatriot-2.jpg">
         <p class="slide-text">Iron Patriot</p>
         </div>
 
         <input class="slide-input" id="slide-dot-4" type="radio" name="slides">
         <div class="slide-content">
-        <img class="slide-img" src="http://lestoilesheroiques.fr/wp-content/uploads/2015/04/rescuearmor.jpg">
+        <img class="slide-img" src="/assets/images/rescuearmor.jpg">
         <p class="slide-text">Mark XLIX/Mark 49</p>
         </div>
 
         <input class="slide-input" id="slide-dot-5" type="radio" name="slides">
         <div class="slide-content">
-        <img class="slide-img" src="http://lestoilesheroiques.fr/wp-content/uploads/2015/04/markxlvi.jpg">
+        <img class="slide-img" src="/assets/images/markxlvi.jpg">
         <p class="slide-text">Mark XLVII/Mark 47</p>
         </div>
     </div>

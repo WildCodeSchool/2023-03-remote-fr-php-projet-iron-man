@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/2023-03-remote-fr-php-projet-iron-man/assets/css/style.css" rel="stylesheet">
+    <title>Page Formation</title>
+</head>
+
+<body>
+    <div class="overlay-menu-mobile" onclick="closeMenuMobile()"></div>
+<header class="header">
+    <div class="header__logo">
+        <img alt="Iron Man" src="/2023-03-remote-fr-php-projet-iron-man/assets/images/logo_jaune" />
+    </div>
+    <nav class="header__nav">
+        <div class="header__nav__close" onclick="closeMenuMobile()">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </div>
+        <ul class="header__nav__menu">
+            <li class="header__nav__menu__link__image">
+                <a href="/2023-03-remote-fr-php-projet-iron-man/index.html">
+                    <img id="logo_rouge" onMouseOver="over();" onMouseOut="out();" src="/2023-03-remote-fr-php-projet-iron-man/assets/images/logo_rouge" alt="ironman" /></a>
+            </li>
+            <li class="header__nav__menu__link">
+                <a href="/2023-03-remote-fr-php-projet-iron-man/portfolio.html">Portfolio</a>
+            </li>
+            <li class="header__nav__menu__link">
+                <a href="/2023-03-remote-fr-php-projet-iron-man/page_experience.html">Expériences</a>
+            </li>
+            <li class="header__nav__menu__link">
+                <a href="/2023-03-remote-fr-php-projet-iron-man/page_formation.html">Formation</a>
+            </li>
+            <li class="header__nav__menu__link">
+                <a href="/2023-03-remote-fr-php-projet-iron-man/formBC.html">Contact</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    <div class="header__burger" onclick="openMenuMobile()">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+    </div>
+</header>
+<script>
+    function openMenuMobile() {
+        document.querySelector('.header__nav').classList.add('open');
+        document.querySelector('.overlay-menu-mobile').classList.add('open');
+    }
+
+    function closeMenuMobile() {
+        document.querySelector('.header__nav').classList.remove('open');
+        document.querySelector('.overlay-menu-mobile').classList.remove('open');
+    }
+
+    function over() {
+        document.querySelector("#logo_rouge").src="/2023-03-remote-fr-php-projet-iron-man/assets/images/logorouge_yeux_jaunes";
+    }
+
+    function out() {
+        document.querySelector("#logo_rouge").src="/2023-03-remote-fr-php-projet-iron-man/assets/images/logo_rouge";
+    }
+</script>  
+    <header class="formation">
+        <h1>Formation</h1>
+    </header>
+    <main class="main_formation">
+                <div class="timeline_formation">
+                            <div class="bloc-container">
+                    <div class="bloc">
+                        <span>2008 - 2009</span>
+                        <div class="content">
+                            <h3>Gunshot - Arizona</h3>
+                            <p>Formation aux techniques de tir : laser, décharge plasma,..</p>
+                        </div>
+                    </div>
+                </div>
+                            <div class="bloc-container">
+                    <div class="bloc">
+                        <span>2008</span>
+                        <div class="content">
+                            <h3>En cellule en Afghanistan</h3>
+                            <p>Master en création d'un coeur synthétique</p>
+                        </div>
+                    </div>
+                </div>
+                            <div class="bloc-container">
+                    <div class="bloc">
+                        <span>1984 - 1987</span>
+                        <div class="content">
+                            <h3>Massachusetts Institute of Technology</h3>
+                            <p>Major acceleré de promotion en physiques et ingénierie électrique.</p>
+                        </div>
+                    </div>
+                </div>
+                            <div class="bloc-container">
+                    <div class="bloc">
+                        <span>1981 - 1984</span>
+                        <div class="content">
+                            <h3>Phillips Academy à Andover</h3>
+                            <p>Bac Scientifique, option mécanique</p>
+                        </div>
+                    </div>
+                </div>
+                    </div>
+    </main>
+        <footer>
+        <p class="textfooter">&copy; Copyright</p>
+        <div id="footer-social-network">
+            <p>
+                <span><a href="/2023-03-remote-fr-php-projet-iron-man#"><img src="/2023-03-remote-fr-php-projet-iron-man/assets/images/facebook.svg" alt="Facebook" class="footer-social" onmouseover=' this.src="/2023-03-remote-fr-php-projet-iron-man/assets/images/facebook-hover.svg"' onmouseout='this.src="/2023-03-remote-fr-php-projet-iron-man/assets/images/facebook.svg"' /></a></span>
+                <span><a href="/2023-03-remote-fr-php-projet-iron-man#"><img src="/2023-03-remote-fr-php-projet-iron-man/assets/images/twitter.svg" alt="Twitter" class="footer-social" onmouseover='this.src="/2023-03-remote-fr-php-projet-iron-man/assets/images/twitter-hover.svg"' onmouseout='this.src="/2023-03-remote-fr-php-projet-iron-man/assets/images/twitter.svg"' /></a></span>
+                <span><a href="/2023-03-remote-fr-php-projet-iron-man#"><img src="/2023-03-remote-fr-php-projet-iron-man/assets/images/youtube.svg" alt="Youtube" class="footer-social" onmouseover='this.src="/2023-03-remote-fr-php-projet-iron-man/assets/images/youtube-hover.svg"' onmouseout='this.src="/2023-03-remote-fr-php-projet-iron-man/assets/images/youtube.svg"' /></a></span>
+            </p>
+        </div>
+    </footer>  
+</body>
+</html>

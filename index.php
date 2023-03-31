@@ -6,7 +6,7 @@
     <title>Curriculum Vitae de Iron Man</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="/assets/css/style.css" />
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap' rel="stylesheet">
 </head>
 
 <body>
@@ -26,16 +26,16 @@
                     <!--radio buttons end-->
                     <!--slide images start-->
                     <div class="slide first">
-                        <img src="assets/images/1.jpg" alt="">
+                        <img src="/assets/images/1.jpg" alt="">
                     </div>
                     <div class="slide">
-                        <img src="assets/images/2.jpg" alt="">
+                        <img src="/assets/images/2.jpg" alt="">
                     </div>
                     <div class="slide">
-                        <img src="assets/images/3.jpg" alt="">
+                        <img src="/assets/images/3.jpg" alt="">
                     </div>
                     <div class="slide">
-                        <img src="assets/images/4.jpg" alt="">
+                        <img src="/assets/images/4.jpg" alt="">
                     </div>
                 </div>
                 <!--manual navigation start-->

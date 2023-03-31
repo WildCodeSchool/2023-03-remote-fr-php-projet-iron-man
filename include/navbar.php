@@ -47,10 +47,10 @@
     }
 
     function over() {
-        document.querySelector("#logo_rouge").src = '/assets/images/logorouge_yeux_jaunes';
+        document.querySelector("#logo_rouge").src="/assets/images/logorouge_yeux_jaunes";
     }
 
     function out() {
-        document.querySelector("#logo_rouge").src = '/assets/images/logo_rouge';
+        document.querySelector("#logo_rouge").src="/assets/images/logo_rouge";
     }
 </script>

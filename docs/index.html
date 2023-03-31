@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Curriculum Vitae de Iron Man</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/2023-03-remote-fr-php-projet-iron-man/assets/css/style.css" />
+    <link href='https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap' rel="stylesheet">
+</head>
+
+<body>
+    <div class="overlay-menu-mobile" onclick="closeMenuMobile()"></div>
+<header class="header">
+    <div class="header__logo">
+        <img alt="Iron Man" src="/2023-03-remote-fr-php-projet-iron-man/assets/images/logo_jaune" />
+    </div>
+    <nav class="header__nav">
+        <div class="header__nav__close" onclick="closeMenuMobile()">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+            </svg>
+        </div>
+        <ul class="header__nav__menu">
+            <li class="header__nav__menu__link__image">
+                <a href="/2023-03-remote-fr-php-projet-iron-man/index.html">
+                    <img id="logo_rouge" onMouseOver="over();" onMouseOut="out();" src="/2023-03-remote-fr-php-projet-iron-man/assets/images/logo_rouge" alt="ironman" /></a>
+            </li>
+            <li class="header__nav__menu__link">
+                <a href="/2023-03-remote-fr-php-projet-iron-man/portfolio.html">Portfolio</a>
+            </li>
+            <li class="header__nav__menu__link">
+                <a href="/2023-03-remote-fr-php-projet-iron-man/page_experience.html">Expériences</a>
+            </li>
+            <li class="header__nav__menu__link">
+                <a href="/2023-03-remote-fr-php-projet-iron-man/page_formation.html">Formation</a>
+            </li>
+            <li class="header__nav__menu__link">
+                <a href="/2023-03-remote-fr-php-projet-iron-man/formBC.html">Contact</a>
+            </li>
+        </ul>
+        </div>
+    </nav>
+    <div class="header__burger" onclick="openMenuMobile()">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+        </svg>
+    </div>
+</header>
+<script>
+    function openMenuMobile() {
+        document.querySelector('.header__nav').classList.add('open');
+        document.querySelector('.overlay-menu-mobile').classList.add('open');
+    }
+
+    function closeMenuMobile() {
+        document.querySelector('.header__nav').classList.remove('open');
+        document.querySelector('.overlay-menu-mobile').classList.remove('open');
+    }
+
+    function over() {
+        document.querySelector("#logo_rouge").src="/2023-03-remote-fr-php-projet-iron-man/assets/images/logorouge_yeux_jaunes";
+    }
+
+    function out() {
+        document.querySelector("#logo_rouge").src="/2023-03-remote-fr-php-projet-iron-man/assets/images/logo_rouge";
+    }
+</script>    <main>
+        <h1 id="main-css">IRON MAN</h1>
+        <p id="subtitle">En recherche d'un réalisateur pour la tournée du 4ème volet du film Iron Man
+        </p>
+        <section class="center">
+            <div class="slider">
+                <div class="slides">
+                    <!--radio buttons start-->
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <!--radio buttons end-->
+                    <!--slide images start-->
+                    <div class="slide first">
+                        <img src="/2023-03-remote-fr-php-projet-iron-man/assets/images/1.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="/2023-03-remote-fr-php-projet-iron-man/assets/images/2.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="/2023-03-remote-fr-php-projet-iron-man/assets/images/3.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="/2023-03-remote-fr-php-projet-iron-man/assets/images/4.jpg" alt="">
+                    </div>
+                </div>
+                <!--manual navigation start-->
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                </div>
+                <!--manual navigation end-->
+            </div>
+        </section>
+        <section id="main-container" class="main-container center">
+            <div class="main-wrapper">
+                <a href="/2023-03-remote-fr-php-projet-iron-man/portfolio.html" class="link-box">
+                    <div class="main-box">
+                        <h2 class="main-title">Mon portfolio</h2>
+                    </div>
+                </a>
+                <a href="/2023-03-remote-fr-php-projet-iron-man/page_experience.html" class="link-box">
+                    <div class="main-box">
+                        <h2 class="main-title">Mes expériences</h2>
+                    </div>
+                </a>
+                <a href="/2023-03-remote-fr-php-projet-iron-man/page_formation.html" class="link-box">
+                    <div class="main-box">
+                        <h2 class="main-title">Mes formations</h2>
+                    </div>
+                </a>
+                <a href="/2023-03-remote-fr-php-projet-iron-man/formBC.html" class="link-box">
+                    <div class="main-box">
+                        <h2 class="main-title">Contactez-moi</h2>
+                    </div>
+                </a>
+            </div>
+        </section>
+    </main>
+
+    <!-- slider JS -->
+    <script>
+        var counter = 1;
+        setInterval(function() {
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if (counter > 4) {
+                counter = 1;
+            }
+        }, 5000);
+    </script>
+    <!-- end slider JS -->
+        <footer>
+        <p class="textfooter">&copy; Copyright</p>
+        <div id="footer-social-network">
+            <p>
+                <span><a href="/2023-03-remote-fr-php-projet-iron-man#"><img src="/2023-03-remote-fr-php-projet-iron-man/assets/images/facebook.svg" alt="Facebook" class="footer-social" onmouseover=' this.src="/2023-03-remote-fr-php-projet-iron-man/assets/images/facebook-hover.svg"' onmouseout='this.src="/2023-03-remote-fr-php-projet-iron-man/assets/images/facebook.svg"' /></a></span>
+                <span><a href="/2023-03-remote-fr-php-projet-iron-man#"><img src="/2023-03-remote-fr-php-projet-iron-man/assets/images/twitter.svg" alt="Twitter" class="footer-social" onmouseover='this.src="/2023-03-remote-fr-php-projet-iron-man/assets/images/twitter-hover.svg"' onmouseout='this.src="/2023-03-remote-fr-php-projet-iron-man/assets/images/twitter.svg"' /></a></span>
+                <span><a href="/2023-03-remote-fr-php-projet-iron-man#"><img src="/2023-03-remote-fr-php-projet-iron-man/assets/images/youtube.svg" alt="Youtube" class="footer-social" onmouseover='this.src="/2023-03-remote-fr-php-projet-iron-man/assets/images/youtube-hover.svg"' onmouseout='this.src="/2023-03-remote-fr-php-projet-iron-man/assets/images/youtube.svg"' /></a></span>
+            </p>
+        </div>
+    </footer></body>
+</html>
